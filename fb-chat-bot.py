@@ -404,7 +404,7 @@ class ChatBot(Client):
                               thread_id=thread_id, thread_type=ThreadType.USER)
 
         def chatGPT(self, query):
-            openai.api_key = "YOUR_API_KEY"
+            openai.api_key = "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"
 
             response = openai.Completion.create(
                 model="text-davinci-003",
@@ -678,9 +678,9 @@ class ChatBot(Client):
 cookies = {
     "sb": "xasyYmAoy1tRpMGYvLxgkHBF",
     "fr": "0NxayJuewRHQ30OX3.AWVJwIYNh0Tt8AJv6kSwDamhkoM.BiMrVd.Iu.AAA.0.0.BiMtVZ.AWXMVaiHrpQ",
-    "c_user": "",
+    "c_user": "100025733558154",
     "datr": "xasyYs51GC0Lq5H5lvXTl5zA",
-    "xs": ""
+    "xs": "21%3Ax7FuXbWEuysvlQ%3A2%3A1674365559%3A-1%3A7716"
 }
 
 
